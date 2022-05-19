@@ -1,0 +1,27 @@
+.top-container {
+    background-color: #003580;
+    color: white;
+}
+
+.top-inside {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-inside p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.top-inside .top-btn button {
+    color: black;
+    font-weight: 500;
+    background-color: white;
+    margin-left: 14px;
+    border: none;
+    padding: 2px 12px;
+    border-radius: 3px;
+}
