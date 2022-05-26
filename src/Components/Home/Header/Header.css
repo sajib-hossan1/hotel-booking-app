@@ -57,6 +57,8 @@
     align-items: center;
     gap: 10;
     position: relative;
+    z-index: 99;
+    opacity: .9;
 }
 
 .header-search-input {
