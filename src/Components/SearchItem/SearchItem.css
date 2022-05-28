@@ -1,0 +1,92 @@
+.search-item-container {
+    margin-bottom: 20px;
+    border: .5px solid rgba(128, 128, 128, 0.642);
+    padding: 10px;
+    border-radius: 5px;
+}
+.search-item-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mid-desc {
+    display: flex;
+    flex-direction: column;
+    line-height: 29px;
+}
+
+.mid-desc h1 {
+    font-size: 22px;
+}
+
+.mid-desc span {
+    font-size: 14px;
+}
+
+.mid-desc .siTaxiOp {
+    background-color: green;
+    color: white;
+    display: inline-block;
+    width: 110px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.mid-desc .siSubtitle {
+    font-weight: 700;
+}
+
+.mid-desc .siCancelOp  {
+    color: green;
+    font-weight: 500;
+}
+
+.mid-desc .siCancelOpSubtitle {
+    color: green;
+    font-size: 13px;
+}
+
+.right-dec {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.right-dec .siRating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-dec .siRating button {
+    background-color: #003580;
+    color: white;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+.right-dec .siDetailTexts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 30px;
+}
+
+.siDetailTexts .siPrice  {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.siDetailTexts .siCheckButton  {
+    background-color: #0071C2;
+    color: white;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}

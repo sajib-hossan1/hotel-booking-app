@@ -112,3 +112,12 @@
 .option-counter-btn:disabled {
     cursor: not-allowed;
 }
+
+.search-btn {
+    border: none;
+    outline: none;
+    background-color: #0071c2;
+    padding: 8px 15px;
+    color: white;
+    border-radius: 3px;
+}
