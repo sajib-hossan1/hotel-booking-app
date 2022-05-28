@@ -1,0 +1,44 @@
+.mail-container {
+    margin-top: 60px;
+}
+
+.mail-container {
+    background-color: #003580;
+    color: white;
+    padding: 40px 0;
+}
+
+.mail-details  {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.mail-details form {
+    text-align: center;
+}
+
+.mail-details form>input[type=email] {
+    width: 70%;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 10px 5px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.mail-details form>input[type=submit] {
+    width: 100px;
+    background-color: #0071C2;
+    color: white;
+    padding: 10px 5px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.mail-details form>input[type=checkbox] {
+    margin-top: 20px;
+}

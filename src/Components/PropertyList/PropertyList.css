@@ -1,10 +1,11 @@
 .property-list-container {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 .property-list-container h2 {
-    font-size: 25px;
+    font-size: 22px;
     color: black;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .property-item img {

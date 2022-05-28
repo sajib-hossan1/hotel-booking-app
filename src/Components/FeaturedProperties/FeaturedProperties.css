@@ -1,0 +1,41 @@
+.fp-container {
+    margin-top: 60px;
+}
+
+.fp-container h3 {
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.fp-item {
+    color: black;
+}
+
+.fp-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.fp-item .fpName {
+    font-weight: 700;
+}
+
+.fp-item .fpPrice {
+    font-weight: 600;
+}
+
+.fp-item .fpRating {
+    margin-top: 5px;
+}
+
+.fp-item .fpRating>button {
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+    font-weight: bold;
+    margin-right: 10px;
+}
